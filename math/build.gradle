@@ -36,8 +36,8 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = 'com.github.jnhyatt'
-            artifactId = 'math'
-            version = '0.1.0'
+            artifactId = 'math-kt'
+            version = '0.1.8'
 
             afterEvaluate {
                 from components.release
