@@ -35,7 +35,7 @@ android {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.sector7.math'
+            groupId = 'com.github.jnhyatt'
             artifactId = 'math'
             version = '0.1.0'
 
