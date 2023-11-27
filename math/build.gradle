@@ -29,3 +29,17 @@ android {
         jvmTarget = '1.8'
     }
 }
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.sector7.math'
+            artifactId = 'math'
+            version = '0.1.0'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
